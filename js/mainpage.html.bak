@@ -1,0 +1,128 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Construction_Labour</title>
+<link rel="stylesheet" href="mainpage.css" type="text/css">
+</head>
+
+<body>
+
+<!-- Header Html Start -->
+<div id="sec1"><div id="header">
+ 
+ <div id="logo">
+ <img src="logo.jpg" alt="" />
+ </div>
+ 
+ <div id="hlink">
+ <ul>
+ <li><a href="https://www.google.com">Home</a></li>
+ <li><a href="#">Labour</a></li>
+ <li><a href="#">Services</a></li>
+ <li><a href="#">PPE</a></li>
+ <li><a href="#">Laws</a></li>
+ <li><a href="#">Gallery</a></li>
+ <li><a href="#">Contact</a></li>
+ <li><a href="#">About</a></li>
+ </ul>
+ </div>
+ 
+ </div></div>
+
+ <!-- Header Html End -->
+ 
+ <!-- Main Html Start -->
+<div id="sec2"><div id="mainContent">
+
+<div id="mainContentrow">
+
+<div id="Cell1">
+
+<div> 
+<span class="heading">MANUAL</span><br>
+<span class="subhading">CONSTRUCTION<br>
+LABOUR</span>
+</div>
+<br>
+<div id="textcenter">
+Manual labour (manual labor in American English) or manual work is physical work done by people, most especially in contrast to that done by machines, and to that done by working animals. It is most literally work done with the hands (the word "manual" comes from the Latin word for hand), and, by figurative extension, it is work done with any of the muscles and bones of the body.
+</div>
+
+</div>
+
+
+
+<div id="Cell2">
+<img src="mainLogo.jpg" alt="" />
+</div>
+
+<div id="Cell3">
+
+<div> 
+<span class="heading">SKILLED</span><br>
+<span class="subhading">CONSTRUCTION<br>
+LABOUR</span>
+</div>
+<br>
+<div id="textcenter">
+A skilled worker is any worker who has special skill, training, knowledge, and (usually acquired) ability in their work. A skilled worker may have attended a college, university or technical school. Or, a skilled worker may have learned their skills on the job. Examples of skilled labor jobs include software development, paramedics, police officers, crane operators, painters, craftsmen and accounting.
+</div>
+
+</div>
+
+</div>
+
+</div></div>
+ <!-- Main Html End -->
+
+ <!-- Footer Html Start -->
+<div id="sec3">
+<div id="footer">
+
+<div id="flink">
+
+<ul>
+<li><span>HOME</span></li>
+<li>LABOUR</li>
+<li>SERVICES</li>
+<li>PPE</li>
+<li>LAWS</li>
+<li>GALLERY</li>
+<li>CONTACT</li>
+<li>ABOUT</li>
+</ul>
+
+</div>
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

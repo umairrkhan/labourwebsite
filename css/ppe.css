@@ -1,0 +1,624 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* *************************  code for custom font "codefont" and "quickand" ************************** */
+@font-face {
+    font-family: "Code Bold";
+    src: url('../fonts/code_bold-webfont.eot');
+    src: url('../fonts/code_bold-webfont.eot?#iefix') format('embedded-opentype');
+src: url('../fonts/code_bold-webfont.woff2') format('woff2');
+src: url('../fonts/code_bold-webfont.woff') format('woff');
+src: url('../fonts/code_bold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: "Code Light";
+    src: url('../fonts/code_light-webfont.eot');
+    src: url('../fonts/code_light-webfont.eot?#iefix') format('embedded-opentype');
+  src: url('../fonts/code_light-webfont.woff2') format('woff2');
+  src: url('../fonts/code_light-webfont.woff') format('woff');
+  src: url('../fonts/code_light-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'quicksandbold';
+    src: url('../fonts/quicksand-bold-webfont.eot');
+    src: url('../fonts/quicksand-bold-webfont.eot?#iefix') format('embedded-opentype');
+ src: url('../fonts/quicksand-bold-webfont.woff2') format('woff2');
+ src: url('../fonts/quicksand-bold-webfont.woff') format('woff');
+ src: url('../fonts/quicksand-bold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'quicksandlight';
+    src: url('../fonts/quicksand-light-webfont.eot');
+    src: url('../fonts/quicksand-light-webfont.eot?#iefix') format('embedded-opentype');
+src:  url('../fonts/quicksand-light-webfont.woff2') format('woff2');
+src:  url('../fonts/quicksand-light-webfont.woff') format('woff');
+src:  url('../fonts/quicksand-light-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'quicksandregular';
+    src: url('../fonts/quicksand-regular-webfont.eot');
+    src: url('../fonts/quicksand-regular-webfont.eot?#iefix') format('embedded-opentype');
+ src: url('../fonts/quicksand-regular-webfont.woff2') format('woff2');
+ src: url('../fonts/quicksand-regular-webfont.woff') format('woff');
+ src: url('../fonts/quicksand-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/* *********************  code for custom font "codefont" and "quickand" ****************************** */
+
+
+
+body{
+	font-family: "Code Light" ;
+	margin: 0px;	
+	
+	background-color:  #eeeeee;  white; #f6f4f5; #f1f0f1; #edeced;
+	
+	
+}
+/*Header CSS Start*/
+#sec1{
+	
+	width:auto;
+	height: 150px;
+	background-color: #cbc9c9;
+	
+	/*border-bottom: 2px solid #c5c4c4;*/
+}
+#header{
+	background-color: #cbc9c9;
+	width: 1000px;
+	height: 148px;
+	font-size: 22px;
+	font-weight: bold;
+	
+/*	border-bottom: 1px solid #c5c4c4;  */
+	margin-right: auto;
+	margin-left: auto;
+}
+#logo{
+	float: left;
+	width: 200px;
+	height: 148px;
+	/*border-bottom: 2px solid #c5c4c4;*/
+}
+#header ul li a{
+	display:inline-block;
+	text-decoration: none;
+	color: black;
+	width: 100px;
+
+	height: 148px;
+	/*border-bottom: 2px solid #c5c4c4;*/
+		
+}
+#header ul li a:hover{
+	background-color: rgba(203,201,201,0.4);
+	
+	color: white;
+/* 	border-bottom-left-radius: 2%;
+	border-bottom-right-radius: 2%;  */
+	border-bottom: 2px solid #0f1e7d;
+	
+}
+
+	
+/* 
+#header ul li:hover{
+	background-color: #3c3b3b;
+	font-weight: bold;	
+}
+#header ul li a:hover{
+	color: white;
+} 
+*/
+/*
+#header ul li a:link{
+	color: black;
+}
+
+#header ul li a:visited{
+	color: #ffc000;
+}
+*/
+#header ul{
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+}
+#header ul li{
+	list-style: none;
+	float: left;
+	/*display: block;*/
+	width: 100px;
+	
+	line-height: 124px;
+	
+	height: 100px;
+	border-bottom-left-radius: 44%;
+	border-bottom-right-radius: 44%;
+
+	
+}
+#header ul li:hover{
+	background-color: #ab0616; rgba(187,29,44,1.0);
+}
+/****************************** Header CSS End  **************************/
+
+
+
+
+
+
+
+/******************************  Main CSS Start  ***************************/
+
+body{
+	background-color: #14223E; #4d0007;
+}
+
+#ppe{
+	display: table;
+	background-color: #14223E; #4d0007; grey; white;
+	
+	width: 1000px;
+	height: 740px;
+	
+	margin:0 auto;
+}
+#ppeRow{
+	display: table-row;
+}
+
+#col1{
+	
+	display: table-cell;
+	width: 325px;
+	height: 700px;
+	padding:20px 0;
+	background-color: #14223E; #4d0007; blue; #4d0007;
+	
+	float:left;
+}
+#col2{
+	display: table-cell;
+	width: 350px;
+	height:740px;
+	
+	background-color: #14223E; #4d0007; green;
+	background-image: url(../images/jpgworker3.jpg);
+	background-repeat: no-repeat;
+	background-position:center;
+}
+
+#col3{
+	display: table-cell;
+	width: 325px;
+	height: 700px;
+	padding:20px 0;
+	background-color: #14223E; #4d0007; purple;
+	
+	float:right;
+}
+
+
+
+/************** Boxes ********************/
+
+
+
+
+#ppe .ppeBox{
+
+	
+	/* width: 325px; */
+	width: 323px;
+	height: 155px;
+	margin: 10px 0;
+	
+    background-color:  #14223E;  #4d0007;  grey;
+	border: 2px solid  #14223E;
+	
+	color: #7d8494; black;
+}
+#ppe1:hover,#ppe2:hover,#ppe3:hover,#ppe4:hover,#ppe5:hover,#ppe6:hover,#ppe7:hover,#ppe8:hover{
+	border: 2px solid white; #dadbdd; #eeeded;
+	background-color: #871417;  #BF2521;
+	color:  white;
+}
+
+
+#ppe1{
+	background-image: url(../images/head3.png);
+}
+#ppe2{
+	background-image: url(../images/gas3.png);
+}
+#ppe3{
+	background-image: url(../images/hand3.png);
+}
+#ppe4{
+	background-image: url(../images/foot3.png);
+}
+#ppe5{
+	background-image: url(../images/ear3.png);
+}
+#ppe6{
+	background-image: url(../images/eye3.png);
+}
+#ppe7{
+	background-image: url(../images/hivis3.png);
+}
+#ppe8{
+	background-image: url(../images/body3.png);
+}
+
+
+
+/*
+#ppe1:hover{
+	background-image: url(../webImages/head3.png);
+}
+#ppe2:hover{
+	background-image: url(../webImages/gas3.png);
+}
+#ppe3:hover{
+	background-image: url(../webImages/hand3.png);
+}
+#ppe4:hover{
+	background-image: url(../webImages/foot3.png);
+}
+#ppe5:hover{
+	background-image: url(../webImages/ear3.png);
+}
+#ppe6:hover{
+	background-image: url(../webImages/eye3.png);
+}
+#ppe7:hover{
+	background-image: url(../webImages/hivis3.png);
+}
+#ppe8:hover{
+	background-image: url(../webImages/body3.png);
+}
+*/
+
+
+
+/************** Boxes ********************/
+
+/************** Images ********************/
+
+.ppeImages{
+	display:inline-block;
+	width: 155px;
+	height: 155px;
+	background-repeat:no-repeat;	
+}
+#ppe1Image{
+	/*background-image: url(../ppe/hhead2.png);*/
+}
+#ppe1Image:hover{
+	/*background-image: url(../ppe/head2.png);*/
+}
+#ppe2Image{
+	/*background-image: url(../ppe/gas2.png);*/
+}
+#ppe3Image{
+	/*background-image: url(../ppe/hand2.png);*/
+}
+#ppe4Image{
+	/*background-image: url(../ppe/foot2.png);*/
+}
+#ppe5Image{
+	/*background-image: url(../ppe/ear2.png);*/
+}
+#ppe6Image{
+	/*background-image: url(../ppe/eye2.png);*/
+}
+#ppe7Image{
+	/*background-image: url(../ppe/hivis2.png);*/
+}
+#ppe8Image{
+	/*background-image: url(../ppe/body2.png);*/
+}
+
+
+/************** Images ********************/
+
+/*************** Text ********************/
+
+.col1Text, .col3Text{
+	display:inline-block;
+	
+    /* width: 170px; */
+	width: 166px;
+	height: 130px;
+	padding-top: 25px;
+	background-color: #4d0007 pink;
+	
+	text-align: center;
+	font-weight: bold;
+	
+	
+	
+}
+.col1Text{
+	
+	float:right;	
+}
+.col3Text{
+	
+	float:left;	
+}
+
+
+
+
+#ppe1Had{
+	font-size: 63px;	
+}
+#ppe1Text{
+	
+	font-size: 25px;
+}
+
+#ppe2Had{
+	font-size: 75px;	
+}
+#ppe2Text{
+	
+	font-size: 25px;
+}
+
+#ppe3Had{
+	font-size: 61px;	
+}
+#ppe3Text{
+	
+	font-size: 25px;
+}
+
+#ppe4Had{
+	font-size: 58px;	
+}
+#ppe4Text{
+	
+	font-size: 25px;
+}
+
+
+/*************** Text ********************/
+
+
+#ppe5Had{
+	font-size: 79px;
+	letter-spacing: 4px; 	
+}
+#ppe5Text{
+	
+	font-size: 25px;	 
+}
+
+#ppe6Had{
+	font-size: 79px;
+	letter-spacing: 4px;	
+}
+#ppe6Text{
+	
+	font-size: 25px;
+}
+
+#ppe7Had{
+	font-size: 56px;	
+}
+#ppe7Text{
+	
+	font-size: 25px;
+}
+
+#ppe8Had{
+	font-size: 58px;	
+}
+#ppe8Text{
+	
+	font-size: 25px;
+}
+
+
+/*************** Text ********************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*************************************   Main CSS End   ******************************/
+
+
+
+
+
+
+
+
+/*********************************    Footer CSS Start   ******************************/
+
+#sec3{
+	
+	background-color:#5c69a8;
+	background-image:url(../images/footer.jpg);
+	background-repeat: no-repeat;
+	background-position:center;
+	height: 257px;
+	margin: 0 auto;
+}
+#footer{
+	display: block;
+	width: 1000px;
+	/*height: 257px;*/
+	height: 237px;
+	/*border-top: 2px solid #c5c4c4;*/
+	
+	margin-right: auto;
+	margin-left: auto;
+	
+}
+/* Below Spaces block for center the footer links with top border */
+#footerLeftspace, #footerRightspace{
+	display: inline-block;
+	float: left;
+	border-top: 2px solid #5c69a8;
+	
+}
+#footerLeftspace{
+	width: 290px;
+	height: 235px;
+}
+#footerRightspace{
+	width: 6px;
+	height: 235px;
+}
+
+
+#footer #flink{
+	display: inline-block;
+	float: left;
+	height:237px;
+	/*width: 1000px;*/
+	width: 704px;
+	/*margin-left: 300px;*/
+}
+#footer #flink ul{
+	
+	margin: 0px;
+	height: 257px;
+	width: 704px;
+	padding: 0px 0px;
+	
+	font-size: 19px;
+	/*font-weight: bold;*/
+	
+}
+
+
+#flink ul li{
+	display: inline-block;
+	list-style: none;
+	float: left;
+ 	width: 88px;
+	height: 74px;
+	
+	border-top: 2px solid #5c69a8;
+    line-height: 120px;
+	
+}
+/* Below CSS for Triangle effect  */	
+#flink ul li{
+	
+}
+
+/*#flink ul li:hover{
+	border-top-color: #ed9f01;
+	
+}*/
+#flink ul li a{
+	margin-top: 0px;
+	display:block;
+	text-decoration: none;
+	color: rgba(255, 255, 255, 0.8);
+	text-align: center;
+	
+    width: 88px;
+	height: 80px;
+	
+	/*border-bottom: 2px solid #5b69a8;*/	
+}
+#flink ul li:hover{
+	border-top-color: #bb1d2c; rgba(168, 73, 81, 0.8);
+}
+#flink ul li a:hover{
+	/*border-bottom: 2px solid #162783;*/
+	color: white;
+	font-weight: bold;
+}
+#floatText{
+	display:block;
+	margin:0 auto;
+	
+	width: 88px;
+	height: 102px;
+	
+	/*border-bottom-left-radius: 43%;
+	
+	border-bottom-right-radius: 43%;*/
+}
+#floatText:hover{
+	background-color: rgba(62, 70, 109, 0.8);
+	
+}
+
+#copyRight{
+	width: 390px;
+	height: 20px;
+	
+	float:right;
+	
+	line-height: 20px;
+	
+	font-size: 13px;
+	text-align: center;
+	font-family: halvetica, Verdana, sans-serif;
+	word-spacing: 4px;
+	color: rgba(255, 255, 255, 0.4);
+	
+	/*background-color: rgba(140, 140, 140, 0.3);*/
+	background-color: rgba(62, 70, 109, 0.6);
+}
+/*Footer CSS End*/

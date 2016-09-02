@@ -1,0 +1,581 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* *************************  code for custom font "codefont" and "quickand" ************************** */
+@font-face {
+    font-family: "Code Bold";
+    src: url('../fonts/code_bold-webfont.eot');
+    src: url('../fonts/code_bold-webfont.eot?#iefix') format('embedded-opentype');
+src: url('../fonts/code_bold-webfont.woff2') format('woff2');
+src: url('../fonts/code_bold-webfont.woff') format('woff');
+src: url('../fonts/code_bold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: "Code Light";
+    src: url('../fonts/code_light-webfont.eot');
+    src: url('../fonts/code_light-webfont.eot?#iefix') format('embedded-opentype');
+  src: url('../fonts/code_light-webfont.woff2') format('woff2');
+  src: url('../fonts/code_light-webfont.woff') format('woff');
+  src: url('../fonts/code_light-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'quicksandbold';
+    src: url('../fonts/quicksand-bold-webfont.eot');
+    src: url('../fonts/quicksand-bold-webfont.eot?#iefix') format('embedded-opentype');
+ src: url('../fonts/quicksand-bold-webfont.woff2') format('woff2');
+ src: url('../fonts/quicksand-bold-webfont.woff') format('woff');
+ src: url('../fonts/quicksand-bold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'quicksandlight';
+    src: url('../fonts/quicksand-light-webfont.eot');
+    src: url('../fonts/quicksand-light-webfont.eot?#iefix') format('embedded-opentype');
+src:  url('../fonts/quicksand-light-webfont.woff2') format('woff2');
+src:  url('../fonts/quicksand-light-webfont.woff') format('woff');
+src:  url('../fonts/quicksand-light-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'quicksandregular';
+    src: url('../fonts/quicksand-regular-webfont.eot');
+    src: url('../fonts/quicksand-regular-webfont.eot?#iefix') format('embedded-opentype');
+ src: url('../fonts/quicksand-regular-webfont.woff2') format('woff2');
+ src: url('../fonts/quicksand-regular-webfont.woff') format('woff');
+ src: url('../fonts/quicksand-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/* *********************  code for custom font "codefont" and "quickand" ****************************** */
+
+
+body{
+	font-family:"Code Light";
+	margin: 0px;
+	background-color: #2b2823;	
+}
+
+/*Header CSS Start*/
+#sec1{
+	
+	width:auto;
+	height: 150px;
+	background-color: #cbc9c9;
+	
+	/*border-bottom: 2px solid #c5c4c4;*/
+}
+#header{
+	background-color: #cbc9c9;
+	width: 1000px;
+	height: 148px;
+	font-size: 22px;
+	font-weight: bold;
+	
+/*	border-bottom: 1px solid #c5c4c4;  */
+	margin-right: auto;
+	margin-left: auto;
+}
+#logo{
+	float: left;
+	width: 200px;
+	height: 148px;
+	/*border-bottom: 2px solid #c5c4c4;*/
+}
+#header ul li a{
+	display:inline-block;
+	text-decoration: none;
+	color: black;
+	width: 100px;
+
+	height: 148px;
+	/*border-bottom: 2px solid #c5c4c4;*/
+		
+}
+#header ul li a:hover{
+	background-color: rgba(203,201,201,0.4);
+	
+	color: white;
+/* 	border-bottom-left-radius: 2%;
+	border-bottom-right-radius: 2%;  */
+	border-bottom: 2px solid #0f1e7d;
+	
+}
+
+	
+/* 
+#header ul li:hover{
+	background-color: #3c3b3b;
+	font-weight: bold;	
+}
+#header ul li a:hover{
+	color: white;
+} 
+*/
+/*
+#header ul li a:link{
+	color: black;
+}
+
+#header ul li a:visited{
+	color: #ffc000;
+}
+*/
+#header ul{
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+}
+#header ul li{
+	list-style: none;
+	float: left;
+	/*display: block;*/
+	width: 100px;
+	
+	line-height: 124px;
+	
+	height: 100px;
+	border-bottom-left-radius: 44%;
+	border-bottom-right-radius: 44%;
+
+	
+}
+#header ul li:hover{
+	background-color: #ab0616; rgba(187,29,44,1.0);
+}
+/*Header CSS End*/
+
+
+/*Main CSS Start*/
+#sec2{
+	width:auto;
+	height: 740px;
+	background-color: #2b2823;
+	color: white;
+	font-family:  sans-serif;
+}
+#sec2Center{
+	width: 786px;
+	height: 740px;
+	margin: 0 auto;
+}
+/* CSS for Row-1 Start */
+#row1{
+	height: 208px;
+	width: 786px;
+	text-align:center;
+	background-color: #2b2823;
+	
+}
+#contactText{
+	
+	margin:auto;
+	font-size: 49px;
+	line-height: 208px;
+}
+/* CSS for Row-1 End */
+
+/* CSS for Row-2 Start */
+#row2{
+	height: 102px;
+	width: 786px;
+	background-color: #2b2823;
+}
+
+#row2link1, #row2link3, #row2link2{
+	display: inline-block;
+}
+#row2link1, #row2link3{
+	width: 198px;
+	height: 102px;
+}
+#row2link2{
+	width: 378px;
+	height: 102px;
+	text-align:center;
+}
+#row2link3{
+	text-align: right;
+}
+
+
+.image{
+	width: 185px;
+	height: 45px;
+	margin: auto;
+	padding: 18px 0px 22px 0px;
+	
+}
+#imageFloat1{
+	float: left;
+}
+
+	
+#row2 span{
+	height: 17px;
+	font-size: 14px;
+	
+	
+	
+	
+}
+#iconCenter1, #iconCenter2, #iconCenter3{
+	display: block;
+	height: 44px;
+	width: 44px;
+	border: 2px solid rgba(255, 255, 255, 0.6);
+	border-radius: 50%;
+	margin: auto;
+	background-repeat:no-repeat;
+	background-position:center;
+	outline: 0;
+}
+#iconCenter1{
+	background-image:url(../images/location.png);
+}
+#iconCenter2{
+	background-image:url(../images/call.png);
+}
+#iconCenter3{
+	background-image:url(../images/mail.png);
+}
+
+/* Blue icons for hovering state Start*/
+#iconCenter1:hover, #iconCenter1:focus{
+	background-image:url(../images/Hlocation.png);
+}
+#iconCenter2:hover, #iconCenter2:focus{
+	background-image:url(../images/Hcall.png);
+}
+#iconCenter3:hover, #iconCenter3:focus{
+	background-image:url(../images/Hmail.png);
+}
+/* Blue icons for hovering state End*/
+
+#iconCenter1:hover, #iconCenter2:hover, #iconCenter3:hover{
+	border: 2px solid rgba(255, 255, 255, 1.0); /*#48559b;*/
+}
+/* CSS for Row-2 End */
+
+/* CSS for Row-3 Start */
+#row3{
+	height: 430px;
+	width: 786px;
+	padding-top: 60px;
+	background-color: #2b2823;
+}
+#contactForm{
+	/*width: 780px;*/
+	width: 757px;
+	height: 296px;
+	padding: 0 11px 0 12px;
+	border: 3px solid rgba(255, 255, 255, 0.6);
+}
+#contactForm div{
+	
+	/*width: 752px;*/
+	/*height: 100px;*/
+	height: 86px;
+	text-align:center;
+	line-height: 86px;
+	margin:0 auto 14px;
+	font-size: 28px;
+	font-weight: bold;
+}
+#contactForm:hover{
+	/*border-color: rgba(241, 163, 1, 0.2);
+	border-color: rgba(218, 117, 92, 0.2);*/
+	border-color: rgba(255, 255, 255, 1.0);
+	
+}
+
+
+
+
+#contactForm form{
+	/*width: 780px;*/
+	width: 757px;
+	height: 196px;
+	
+	text-decoration: none;
+}
+#contactForm #comment, #contactForm #button{
+	border: none;
+	margin: 0px;
+	padding: 0px;
+}
+#contactForm #comment{
+	width: 757px;
+	height: 101px;
+}
+#contactForm #button{
+	/*height: 95px;*/
+	height: 37px;
+	padding: 29px 0px;
+	
+}
+
+/*#contactForm input, #contactForm textarea{
+	height: 35px;
+	border: none;
+	background-color: #2b2722;
+}*/
+
+
+
+input.inputText{
+	border: none;
+	background-color: #2b2722;
+	padding: 0px;
+	margin: 0 13px;
+	border-bottom: 2px solid rgba(255, 255, 255, 0.8);
+	color: white;
+	font-size: 15px;
+	text-transform: uppercase;
+	outline: 0;
+	
+}
+
+#name, #email{
+	display: inline-block;
+	/*width: 349px;*/
+	width: 348px;
+	/*height: 37px;*/
+	height: 35px;
+	
+}
+#comments{
+	display:block;
+	width: 726px;
+	height: 43px;
+	margin-top: 19px;
+}
+
+	
+input.inputText:focus, input.inputText:hover{
+	border-bottom-color: #48559b;
+}
+#sendButton{
+	width: 110px;
+	height: 33px;
+	background-color: transparent;
+	border: 2px solid rgba(255, 255, 255, 0.8); 
+	color: grey;
+	font-size: 15px;
+	float:right;
+	margin-right: 13px;
+	outline: 0;
+	
+	
+}
+#sendButton:hover, #sendButton:focus{
+	border-color: rgba(237, 159, 1, 0.8); #48559b;
+	color: white;
+}
+
+/* CSS for Row-3 End */
+
+/*Main CSS End*/
+
+
+
+
+
+
+
+/*Footer CSS Start*/
+#sec3{
+	background-color:#5c69a8;
+	background-image:url(../images/footer.jpg);
+	background-repeat: no-repeat;
+	background-position:center;
+	height: 257px;
+	margin: 0 auto;
+}
+#footer{
+	display: block;
+	width: 1000px;
+	/*height: 257px;*/
+	height: 237px;
+	/*border-top: 2px solid #c5c4c4;*/
+	
+	margin-right: auto;
+	margin-left: auto;
+	
+}
+/* Below Spaces block for center the footer links with top border */
+#footerLeftspace, #footerRightspace{
+	display: inline-block;
+	float: left;
+	border-top: 2px solid #5c69a8;
+	
+}
+#footerLeftspace{
+	width: 290px;
+	height: 235px;
+}
+#footerRightspace{
+	width: 6px;
+	height: 235px;
+}
+
+
+#footer #flink{
+	display: inline-block;
+	float: left;
+	height:237px;
+	/*width: 1000px;*/
+	width: 704px;
+	/*margin-left: 300px;*/
+}
+#footer #flink ul{
+	
+	margin: 0px;
+	height: 257px;
+	width: 704px;
+	padding: 0px 0px;
+	
+	font-size: 19px;
+	/*font-weight: bold;*/
+	
+}
+
+
+#flink ul li{
+	display: inline-block;
+	list-style: none;
+	float: left;
+ 	width: 88px;
+	height: 74px;
+	
+	border-top: 2px solid #5c69a8;
+    line-height: 120px;
+	
+}
+/* Below CSS for Triangle effect  */	
+#flink ul li{
+	
+}
+
+/*#flink ul li:hover{
+	border-top-color: #ed9f01;
+	
+}*/
+#flink ul li a{
+	margin-top: 0px;
+	display:block;
+	text-decoration: none;
+	color: rgba(255, 255, 255, 0.8);
+	text-align: center;
+	
+    width: 88px;
+	height: 80px;
+	
+	/*border-bottom: 2px solid #5b69a8;*/	
+}
+#flink ul li:hover{
+	border-top-color: #bb1d2c; rgba(168, 73, 81, 0.8);
+}
+#flink ul li a:hover{
+	/*border-bottom: 2px solid #162783;*/
+	color: white;
+	font-weight: bold;
+}
+#floatText{
+	display:block;
+	margin:0 auto;
+	
+	width: 88px;
+	height: 102px;
+	
+	/*border-bottom-left-radius: 43%;
+	
+	border-bottom-right-radius: 43%;*/
+}
+#floatText:hover{
+	background-color: rgba(62, 70, 109, 0.8);
+	
+}
+
+#copyRight{
+	width: 390px;
+	height: 20px;
+	
+	float:right;
+	
+	line-height: 20px;
+	
+	font-size: 13px;
+	text-align: center;
+	font-family: halvetica, Verdana, sans-serif;
+	word-spacing: 4px;
+	color: rgba(255, 255, 255, 0.4);
+	
+	/*background-color: rgba(140, 140, 140, 0.3);*/
+	background-color: rgba(62, 70, 109, 0.6);
+}
+
+
+
+/*#triangle{
+	
+	display:block;
+	background-color: color: rgba(255, 255, 255, 0.8);
+	
+	width: 0;
+	height: 0;
+	
+	border-left: 44px solid transparent;
+	border-top: 0px solid transparent;
+	border-right: 44px solid transparent;
+	border-bottom: 75px solid transparent;
+}
+#triangle:hover{
+	border-bottom-color: rgba(168, 73, 81, 0.6);	
+}
+
+#floatText{
+	display:block;
+	position: relative;
+	top: 76px;
+	left: 0;
+}
+*/
+/*#flink{
+	width: 150px;
+	height: 100px;
+	-webkit-transform: skew(10deg);
+	   -moz-transform: skew(10deg);
+	     -o-transform: skew(10deg);
+	background: red;
+}
+#flink ul{
+	margin: 0px;
+	padding: 0px;
+}
+#flink ul li{
+	list-style: none;
+}*/
+
+
+
+/*Footer CSS End*/
